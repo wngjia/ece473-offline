@@ -17,6 +17,8 @@ curl -LO "https://dl.k8s.io/release/v1.30.0/bin/linux/amd64/kubectl"
 install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 rm kubectl
 
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+
 echo 'export PATH=$PATH:/usr/local/go/bin:/home/ubuntu/go/bin' >> /home/ubuntu/.bashrc
 
 sudo -i -u ubuntu bash << EOF

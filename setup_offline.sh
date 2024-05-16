@@ -16,7 +16,7 @@ git clone https://github.com/wngjia/ece573-prj03.git
 git clone https://github.com/wngjia/ece573-prj04.git
 git clone https://github.com/wngjia/ece573-prj05.git
 git clone https://github.com/wngjia/ece573-prj06.git
-cp prj06-chaos-mesh_install.sh ece573-prj06/chaos-mesh_install.sh
+cp chaos-mesh ece573-prj06 -R
 cp prj06-reset_cluster.sh ece573-prj06/reset_cluster.sh
 go -C ece573-prj02/kvs mod vendor
 go -C ece573-prj03/reader/ mod vendor
