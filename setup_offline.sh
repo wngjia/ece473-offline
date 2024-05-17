@@ -11,6 +11,7 @@ docker pull ghcr.io/chaos-mesh/chaos-dashboard:v2.6.2
 docker pull confluentinc/cp-zookeeper:7.3.5
 docker pull confluentinc/cp-kafka:7.3.5
 docker pull kindest/node:v1.30.0
+docker pull gcr.io/google-containers/pause:latest
 git clone https://github.com/wngjia/ece573-prj01.git
 git clone https://github.com/wngjia/ece573-prj02.git
 git clone https://github.com/wngjia/ece573-prj03.git
